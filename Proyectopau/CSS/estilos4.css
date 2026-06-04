@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Calibri light";
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 500px;
+    background: url('../Imagenes/rosa.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    padding: 20px 30px;
+}
+
+main .perfil{
+    width: 150px;
+    height: 150px;
+    background:pink;
+    border:8px solid #fff;
+    border-radius: 50%;
+    margin-top:-95px;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+main .perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+main .texto h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+main .texto p{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/****Boton*****/
+
+
+.boton a{
+    background: rgb(231, 95, 118);
+    text-decoration: none; /*Quita subrayado*/
+    color: black;
+    font-size: 18px;
+    display:block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 100px;
+    margin:0 auto;
+    text-align: center;
+} 
+
+.boton a:hover{
+    background: pink;
+} 
+
+.contenedor {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .caja {
+      width: 20%; /* Cinco columnas iguales (100% / 5 = 20%) */
+      height: 200px;
+      border: 1px solid #03071e;
+      background-color: #f9c2ff;
+      margin: 0; /* Eliminamos los márgenes */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box; /* Aseguramos que el borde esté incluido en el ancho total */
+    }
+
+    .caja img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+/******FOOTER******/
+footer{
+    background: pink;
+    padding: 25px;
+
+}    
+
+footer p{
+    color:black;
+    text-align: center;
+}    
