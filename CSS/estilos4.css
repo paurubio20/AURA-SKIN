@@ -15,7 +15,7 @@ body{
 
 header{
     height: 500px;
-    background: url('../Imagenes/rosa.jpeg');
+    background: url('../imagenes/rosa.jpeg');
     background-position: center;
     background-size: cover;
 }
